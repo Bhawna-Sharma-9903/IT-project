@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightWhite">
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="126dp"
+        android:src="@drawable/dhanvantri_logos"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+
+    <ImageView
+        android:layout_width="433dp"
+        android:layout_height="635dp"
+        android:src="@drawable/button_shape"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+
+    <ImageButton
+        android:layout_width="203dp"
+        android:layout_height="215dp"
+        android:scaleType="fitXY"
+        app:backgroundTint="@drawable/image_round"
+        android:background="@drawable/image_round"
+        android:src="@drawable/beauty_2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <ImageButton
+        android:layout_width="203dp"
+        android:layout_height="215dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hrt_3"
+        app:backgroundTint="@drawable/image_round"
+        android:background="@drawable/image_round"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <ImageButton
+        android:layout_width="203dp"
+        android:layout_height="215dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/meditate_1"
+        app:backgroundTint="@drawable/image_round"
+        android:background="@drawable/image_round"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <ImageButton
+        android:layout_width="203dp"
+        android:layout_height="215dp"
+        android:background="@drawable/image_round"
+        android:scaleType="fitXY"
+        android:src="@drawable/haldi_1"
+        app:backgroundTint="@drawable/image_round"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="444dp"  />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
