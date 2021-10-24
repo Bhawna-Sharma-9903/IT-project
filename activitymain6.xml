@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hlth"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      SOME HEALTH TIPS"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:fontFamily="sans-serif-medium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" \n1.Take a moment to breathe: "
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="“Breathing exercises or pranayama, which are part of an ayurvedic lifestyle regimen, revitalise your body."
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pranayam"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Wake up before the sun:"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Most diseases today are lifestyle-related, which can be easily avoided by steering clear of the frequent lifestyle mistakes we make."
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n3.BE POSITIVE"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The things you read, the music you choose to listen to, the images and videos you watch – everything influences your gunas. If you watch and listen to sattvic information, your sattva guna will increase."
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n4.SAY NO TO CHEMICALS"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" You can prepare a paste of one teaspoon of sandal wood powder with one teaspoon of turmeric and few drops of rose water for a quick and refreshing face mask. "
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:fontFamily="cursive"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/st"
+            />
+    </LinearLayout>
+
+</ScrollView>
