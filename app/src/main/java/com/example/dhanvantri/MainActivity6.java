@@ -5,36 +5,25 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivity6 extends AppCompatActivity {
 
-    String TAG ="MainActivity2" ;
-
+    String TAG ="MainActivity6" ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ImageButton Beauty= (ImageButton) findViewById(R.id.imageButton);
-        Beauty.setImageResource(R.drawable.beauty_2);
-       /* Intent intent= new Intent(MainActivity2.this, Main);
-        startActivity(intent);*/
-
-        ImageButton General_tips= (ImageButton) findViewById(R.id.imageButton2);
-        Beauty.setImageResource(R.drawable.hrt_3);
-        Intent intent= new Intent(MainActivity2.this, MainActivity6.class);
-        startActivity(intent);
-
-        ImageButton yoga= (ImageButton) findViewById(R.id.imageButton3);
-        Beauty.setImageResource(R.drawable.meditate_1);
-        /*Intent intent= new Intent(MainActivity2.this, MainActivity3.class);
-        startActivity(intent);*/
-
-
         setContentView(R.layout.activity_main);
-        Log.i(TAG,"--onCreate--");
+        Log.i(TAG, "--onCreate--");
     }
-
+     General_tips.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent= new Intent(MainActivity2.this, MainActivity6.class);
+            startActivity(intent);
+        }
+    });
     @Override
     protected void onStart() {
         super.onStart();
@@ -71,3 +60,5 @@ public class MainActivity2 extends AppCompatActivity {
         Log.i(TAG, "--onDestroy--");
     }
 }
+
+

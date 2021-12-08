@@ -2,6 +2,7 @@ package com.example.dhanvantri;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -13,11 +14,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Button letSTART= (Button) findViewById(R.id.button5);
+        Button letSTART= (Button) findViewById(R.id.button1);
         letSTART.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Log.d(TAG, "onClick: Dhanvantri is activated");
+                Intent intent= new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent);
             }
         });
         setContentView(R.layout.activity_main);
